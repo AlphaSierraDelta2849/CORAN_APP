@@ -3,31 +3,31 @@ class Ayah {
   final int surahNumber;
   final int numberInSurah;
   final String text;
-  final String translation;
+  // final String translation;
 
   Ayah({
     required this.number,
     required this.surahNumber,
     required this.numberInSurah,
     required this.text,
-    required this.translation,
+    // required this.translation,
   });
 
   factory Ayah.fromMap(Map<String, dynamic> m) {
     return Ayah(
-      number: m['number'],
-      surahNumber: m['surahNumber'],
-      numberInSurah: m['numberInSurah'],
+      number: m['id'],
+      surahNumber: m['sura_id'],
+      numberInSurah: m['ayah_number'],
       text: m['text'],
-      translation: m['translation'] ?? '',
+      // translation: m['translation'] ?? '',
     );
   }
 
   Map<String, dynamic> toMap() => {
-        'number': number,
-        'surahNumber': surahNumber,
-        'numberInSurah': numberInSurah,
+        'id': number,
+        'sura_id': surahNumber,
+        'ayah_number': numberInSurah,
         'text': text,
-        'translation': translation,
+        // 'translation': translation,
       };
 }

@@ -17,10 +17,10 @@ class Surah {
 
   factory Surah.fromMap(Map<String, dynamic> m, List<Ayah> ayahs) {
     return Surah(
-      number: m['number'],
-      name: m['name'],
-      englishName: m['englishName'] ?? '',
-      numberOfAyahs: m['numberOfAyahs'] ?? 0,
+      number: m['sura_id'],
+      name: m['name_ar'],
+      englishName: m['name_en'] ?? '',
+      numberOfAyahs: m['ayah_count'] ?? 0,
       ayahs: ayahs,
     );
   }

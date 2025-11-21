@@ -1,0 +1,26 @@
+{
+  "surahs": [
+    {
+      "number": 1,
+      "name": "الفاتحة",
+      "englishName": "Al-Faatiha",
+      "numberOfAyahs": 7,
+      "ayahs": [
+        {"number":1, "numberInSurah":1, "text":"بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","translation":"Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux."},
+        {"number":2, "numberInSurah":2, "text":"الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ","translation":"Louange à Allah, Seigneur des mondes."},
+        {"number":3, "numberInSurah":3, "text":"الرَّحْمَٰنِ الرَّحِيمِ","translation":"Le Tout Miséricordieux, le Très Miséricordieux."},
+        {"number":4, "numberInSurah":4, "text":"مَالِكِ يَوْمِ الدِّينِ","translation":"Maître du Jour du Jugement."}
+      ]
+    },
+    {
+      "number": 112,
+      "name": "الإخلاص",
+      "englishName": "Al-Ikhlas",
+      "numberOfAyahs": 4,
+      "ayahs": [
+        {"number":1, "numberInSurah":1, "text":"قُلْ هُوَ اللَّهُ أَحَدٌ","translation":"Dis: Il est Allah, [qui est] Un."},
+        {"number":2, "numberInSurah":2, "text":"اللَّهُ الصَّمَدُ","translation":"Allah, le Seul à être imploré pour ce que nous désirons."}
+      ]
+    }
+  ]
+}
